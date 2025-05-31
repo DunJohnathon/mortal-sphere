@@ -3,3 +3,4 @@
 ---
 
 Note note note
+[[Test 1\|Test 1]]
