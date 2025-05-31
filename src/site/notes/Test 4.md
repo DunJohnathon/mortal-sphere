@@ -3,4 +3,4 @@
 ---
 
 I am a lineman for the county
-[[Test 2\|Test 2]]
+[[Landing Page\|Landing Page]]

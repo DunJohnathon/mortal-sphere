@@ -3,4 +3,4 @@
 ---
 
 Note note note
-[[Test 2\|Test 2]]
+[[Landing Page\|Landing Page]]
