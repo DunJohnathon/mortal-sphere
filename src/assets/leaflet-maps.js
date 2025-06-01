@@ -5,6 +5,15 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const codeBlocks = document.querySelectorAll("pre > code.language-leaflet");
     if (codeBlocks === 0) return;
+
+    let data;
+    try {
+      const res = await fetch("/assets/data.json")
+      data = await res.json();
+    } catch (err) {
+      console.error("Could not load data.json", err);
+      return;
+    }
     
     codeBlocks.forEach((codeBlock, index) => {
       const config = jsyaml.load(codeBlock.innerText);
