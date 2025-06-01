@@ -95,6 +95,9 @@ const tagRegex = /(^|\s|\>)(#[^\s!@#$%^&*()=+\.,\[{\]};:'"?><]+)(?!([^<]*>))/g;
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 
+    "src/assets/data.json": "assets/data.json" 
+  });
+  eleventyConfig.addPassthroughCopy({ 
     "src/assets": "assets" 
   });
   eleventyConfig.setLiquidOptions({
