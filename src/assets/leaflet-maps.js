@@ -17,8 +17,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       const map = L.map(mapId)
        [0, 0],
-//     6 || 10
-//      );
+     6 || 10
+      );
 
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         attribution: '&copy; OpenStreetMap contributors',
