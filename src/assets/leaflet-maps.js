@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", async () => {
       codeBlock.parentElement.replaceWith(mapDiv);
 
       const map = L.map(mapId)
-//        [config.latitude, config.longitude],
-//        config.zoom || 10
+       [0, 0],
+//     6 || 10
 //      );
 
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
