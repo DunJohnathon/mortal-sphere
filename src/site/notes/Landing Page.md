@@ -7,3 +7,4 @@
 >
  — *[[St. Zhefarah zi Nahri\|St. Zhefarah zi Nahri]], Pharaoh of [[The Holy Empire of Nahraam\|The Holy Empire of Nahraam]]*
 
+[[Taea\|Taea]]
