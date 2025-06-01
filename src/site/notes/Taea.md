@@ -11,3 +11,12 @@ longitude: 0
 height: 700px
 width: 100%
 ```
+
+```leaflet
+id: test-map
+image: MS.svg
+
+```
+
+
+[[Test\|Test]]
