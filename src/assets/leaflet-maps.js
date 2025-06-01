@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       mapDiv.style = "width: 100%; height: 400px; margin: 1em 0;";
       codeBlock.parentElement.replaceWith(mapDiv);
 
-      const map = L.map(mapId)
+      const map = L.map(mapId).setView(
        [0, 0],
        6 || 10
        );
