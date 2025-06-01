@@ -18,7 +18,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     codeBlocks.forEach((codeBlock, index) => {
       const config = jsyaml.load(codeBlock.innerText);
       const mapId = config.id;
-
+      const image = config.image;
+      const bounds = config.bounds;
+      console.log('map: ${index}, mapId: ${mapId}, image: ${image}')
       const mapDiv = document.createElement("div");
       mapDiv.id = mapId;
       mapDiv.style = "width: 100%; height: 400px; margin: 1em 0;";
@@ -29,9 +31,7 @@ document.addEventListener("DOMContentLoaded", async () => {
        6 || 10
        );
 
-      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        attribution: '&copy; OpenStreetMap contributors',
-      }).addTo(map);
+      L.imageOverlay('/assets/maps/${image}', bounds).addTo(map);
 
       // Add markers from data.json
       if (mapData.mapMarkers) {
