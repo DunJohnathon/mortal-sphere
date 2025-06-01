@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       const mapId = config.id;
       const image = config.image;
       const bounds = config.bounds;
-      console.log('map: ${index}, mapId: ${mapId}, image: ${image}')
+      console.log('map: '+ index + ', mapId: '+mapId + ', image: ' + image + ', bounds: ' + bounds )
       const mapDiv = document.createElement("div");
       mapDiv.id = mapId;
       mapDiv.style = "width: 100%; height: 400px; margin: 1em 0;";
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", async () => {
        6 || 10
        );
 
-      L.imageOverlay('/assets/maps/${image}', bounds).addTo(map);
+      L.imageOverlay('/assets/maps/' + image, bounds).addTo(map);
 
       // Add markers from data.json
       if (mapData.mapMarkers) {
