@@ -1,8 +1,11 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const codeBlocks = document.querySelectorAll("pre > code.language-leaflet");
+document.addEventListener("DOMContentLoaded", async () => {
+  try {
+    const response = await fetch("/assets/data.json");
+    const mapData = await response.json();
 
-  codeBlocks.forEach((codeBlock, index) => {
-    try {
+    const codeBlocks = document.querySelectorAll("pre > code.language-leaflet");
+
+    codeBlocks.forEach((codeBlock, index) => {
       const config = jsyaml.load(codeBlock.innerText);
       const mapId = `leaflet-map-${index}`;
 
@@ -20,15 +23,18 @@ document.addEventListener("DOMContentLoaded", () => {
         attribution: '&copy; OpenStreetMap contributors',
       }).addTo(map);
 
-      if (config.markers) {
-        config.markers.forEach((marker) => {
-          L.marker([marker.latitude, marker.longitude])
-            .addTo(map)
-            .bindPopup(marker.popup || "");
+      // Add markers from data.json
+      if (mapData.mapMarkers) {
+        mapData.mapMarkers.forEach((marker) => {
+          if (marker.mapId === config.id) {
+            L.marker([marker.latitude, marker.longitude])
+              .addTo(map)
+              .bindPopup(marker.popup || "");
+          }
         });
       }
-    } catch (err) {
-      console.error("Error rendering Leaflet map:", err);
-    }
-  });
+    });
+  } catch (err) {
+    console.error("Error rendering Leaflet map:", err);
+  }
 });
