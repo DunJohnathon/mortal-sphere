@@ -26,7 +26,8 @@ document.addEventListener("DOMContentLoaded", async () => {
       mapDiv.style = "width: 100%; height: 400px; margin: 1em 0;";
       codeBlock.parentElement.replaceWith(mapDiv);
 
-      const map = L.map(mapId).setView(
+      const map = L.map(mapId, {
+                        crs: L.CRS.Simple).setView(
        [config.lat, config.long],
        config.minZoom || config.maxZoom
        );
