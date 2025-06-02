@@ -27,8 +27,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       codeBlock.parentElement.replaceWith(mapDiv);
 
       const map = L.map(mapId, {
-                        crs: L.CRS.Simple}).fitBounds(bounds)
-       );
+                        crs: L.CRS.Simple}).fitBounds(bounds);
 
       L.imageOverlay('/assets/maps/' + image, bounds).addTo(map);
 
