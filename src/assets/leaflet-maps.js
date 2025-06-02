@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", async () => {
       codeBlock.parentElement.replaceWith(mapDiv);
 
       const map = L.map(mapId).setView(
-       [0, 0],
-       6 || 10
+       [config.lat, config.long],
+       config.minZoom || config.maxZoom
        );
 
       L.imageOverlay('/assets/maps/' + image, bounds).addTo(map);
