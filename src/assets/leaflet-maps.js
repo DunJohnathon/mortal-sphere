@@ -27,9 +27,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       codeBlock.parentElement.replaceWith(mapDiv);
 
       const map = L.map(mapId, {
-                        crs: L.CRS.Simple}).setView(
-       [config.lat, config.long],
-       config.minZoom || config.maxZoom
+                        crs: L.CRS.Simple}).fitBounds(bounds)
        );
 
       L.imageOverlay('/assets/maps/' + image, bounds).addTo(map);
