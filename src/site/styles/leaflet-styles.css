@@ -16,6 +16,7 @@
 	}
 .leaflet-container {
 	overflow: hidden;
+	border: 5px solid red !important;
 	}
 .leaflet-tile,
 .leaflet-marker-icon,
