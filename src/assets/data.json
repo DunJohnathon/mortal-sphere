@@ -1,17 +1,79 @@
 {
   "mapMarkers": [
     {
-      "id": "atlas-map",
-      "lastAccessed": 1748791809605,
+      "id": "ms-map",
+      "lastAccessed": 1749075008754,
       "markers": [
         {
-          "id": "ID_29b97bb8886a",
+          "id": "ID_a81bdae99bdb",
           "type": "default",
           "loc": [
-            -2.21484375,
-            3.1796875
+            -0.20458984375,
+            0.109375
+          ],
+          "link": "St. Zhefarah zi Nahri",
+          "layer": "MS.svg",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "Test.md"
+      ]
+    },
+    {
+      "id": "atlas-map",
+      "lastAccessed": 1749075203117,
+      "markers": [
+        {
+          "id": "ID_7abac8db689b",
+          "type": "default",
+          "loc": [
+            1428.75,
+            1656
           ],
           "link": "Shaijaqim",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_996bfa4b3b6b",
+          "type": "default",
+          "loc": [
+            1759.1875,
+            2055
+          ],
+          "link": "The Arbasmendi Mountain Range",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1b0a995a4a6a",
+          "type": "default",
+          "loc": [
+            1667.1875,
+            2237
+          ],
+          "link": "Cordelia",
           "layer": "Mortal%20Sphere%20Atlas%20v8.png",
           "mutable": true,
           "command": false,
