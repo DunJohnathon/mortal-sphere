@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       iconSize: [32,32],
       iconAnchor: [16,0],
       popupAnchor:  [-3, -32]
-      
+    });
     
     codeBlocks.forEach((codeBlock, index) => {
       const config = jsyaml.load(codeBlock.innerText);
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 .addTo(map)
                 .bindPopup(marker.popup || "");
           }
-        });
+        );
       }
     });
   } catch (err) {
