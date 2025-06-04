@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         console.log('found json')
         mapData.mapMarkers.forEach((map) => {
           if (map.id === config.id) {
-            console.log(map.id+' matches '+ config.id
+            console.log(map.id+' matches '+ config.id)
             map.markers.forEach((marker) => {
               L.marker([marker.loc.0, marker.loc.1],
                        {icon: icon})
