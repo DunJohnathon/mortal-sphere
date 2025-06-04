@@ -14,6 +14,13 @@ document.addEventListener("DOMContentLoaded", async () => {
       console.error("Could not load data.json", err);
       return;
     }
+
+    var icon = L.icon({
+      iconUrl: 'src/assets/icon.png',
+      iconSize: [32,32],
+      iconAnchor: [16,0],
+      popupAnchor:  [-3, -32]
+      
     
     codeBlocks.forEach((codeBlock, index) => {
       const config = jsyaml.load(codeBlock.innerText);
@@ -35,11 +42,15 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       // Add markers from data.json
       if (mapData.mapMarkers) {
-        mapData.mapMarkers.forEach((marker) => {
-          if (marker.mapId === config.id) {
-            L.marker([marker.latitude, marker.longitude])
-              .addTo(map)
-              .bindPopup(marker.popup || "");
+        console.log('found json')
+        mapData.mapMarkers.forEach((map) => {
+          if (map.id === config.id) {
+            console.log(map.id+' matches '+ config.id
+            map.markers.forEach((marker) => {
+              L.marker([marker.loc.0, marker.loc.1],
+                       {icon: icon})
+                .addTo(map)
+                .bindPopup(marker.popup || "");
           }
         });
       }
