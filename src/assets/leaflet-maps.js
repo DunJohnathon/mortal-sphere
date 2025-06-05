@@ -43,16 +43,15 @@ document.addEventListener("DOMContentLoaded", async () => {
       // Add markers from data.json
       if (mapData.mapMarkers) {
         console.log('found json')
-        mapData.mapMarkers.forEach((map) => {
-          if (map.id === config.id) {
-            console.log(map.id+' matches '+ config.id)
-            map.markers.forEach((marker) => {
+        mapData.mapMarkers.forEach((leafmap) => {
+          if (leafmap.id === config.id) {
+            console.log(leafmap.id+' matches '+ config.id)
+            leafmap.markers.forEach((marker) => {
               L.marker([marker.loc.0, marker.loc.1],
                        {icon: icon})
-                .addTo(map)
+                .addTo(leafmap)
                 .bindPopup(marker.popup || "");
-          }
-        );
+          });
       }
     });
   } catch (err) {
