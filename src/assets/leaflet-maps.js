@@ -47,10 +47,19 @@ document.addEventListener("DOMContentLoaded", async () => {
           if (leafmap.id === config.id) {
             console.log(leafmap.id+' matches '+ config.id)
             leafmap.markers.forEach((marker) => {
+              const slug = marker.link
+                .toLowerCase()
+                .replace(/[^\w\s-]/g, "")
+                .replace(/\s+/g, "-");
+              const noteUrl = 'https://mortal-sphere.pages.dev/'+slug
+              
+              
               L.marker([marker.loc[0], marker.loc[1]],
                        {icon: icon})
                 .addTo(map)
-                .bindPopup(marker.link || "");
+                .on("click", () => {
+                  window.location.href = noteUrl;
+                });
           });
         }
       });
