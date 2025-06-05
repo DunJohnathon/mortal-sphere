@@ -47,14 +47,14 @@ document.addEventListener("DOMContentLoaded", async () => {
           if (leafmap.id === config.id) {
             console.log(leafmap.id+' matches '+ config.id)
             leafmap.markers.forEach((marker) => {
-              L.marker([marker.loc[1], marker.loc[0]],
+              L.marker([marker.loc.1, marker.loc.0],
                        {icon: icon})
                 .addTo(leafmap)
                 .bindPopup(marker.popup || "");
           });
       }
     });
-  } catch (err) {
-    console.error("Error rendering Leaflet map:", err);
-  }
+  } 
+  }}catch (err) {
+    console.error("Error rendering Leaflet map:", err)};
 });
