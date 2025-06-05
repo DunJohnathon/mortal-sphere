@@ -56,5 +56,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
   } 
   }}catch (err) {
-    console.error("Error rendering Leaflet map:", err)};
+    console.error("Error rendering Leaflet map:", err);
+  };
 });
