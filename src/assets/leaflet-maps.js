@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     var icon = L.icon({
       iconUrl: '/assets/icon.png',
-      iconSize: [32,32],
-      iconAnchor: [16,0],
-      popupAnchor:  [-3, -32]
+      iconSize: [16,16],
+      iconAnchor: [8,8],
+      popupAnchor:  [0, -16]
     });
     
     codeBlocks.forEach((codeBlock, index) => {
