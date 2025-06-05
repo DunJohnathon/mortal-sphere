@@ -49,13 +49,14 @@ document.addEventListener("DOMContentLoaded", async () => {
             leafmap.markers.forEach((marker) => {
               L.marker([marker.loc[1], marker.loc[0]],
                        {icon: icon})
-                .addTo(leafmap)
-                .bindPopup(marker.popup || "");
+                .addTo(map)
+                .bindPopup(marker.link || "");
           });
-      }
-    });
-  } 
-  }}catch (err) {
+        }
+      });
+    } 
+  }
+}  catch (err) {
     console.error("Error rendering Leaflet map:", err);
-  };
+  }
 });
