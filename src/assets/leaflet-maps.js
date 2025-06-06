@@ -36,7 +36,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       const map = L.map(mapId, {
                         crs: L.CRS.Simple,
                        minZoom: config.minZoom,
-                       maxZoom: config.maxZoom}).fitBounds(bounds);
+                       maxZoom: config.maxZoom,
+                        height: config.height,
+                        width: config.width}).fitBounds(bounds);
 
       L.imageOverlay('/assets/maps/' + image, bounds).addTo(map);
 
