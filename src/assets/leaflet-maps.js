@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       console.log('map: '+ index + ', mapId: '+mapId + ', image: ' + image + ', bounds: ' + bounds )
       const mapDiv = document.createElement("div");
       mapDiv.id = mapId;
-      mapDiv.style = "width: ${config.width}; height: ${config.height}; margin: 1em 0;";
+      mapDiv.style = `width: ${config.width}; height: ${config.height}; margin: 1em 0;`;
       codeBlock.parentElement.replaceWith(mapDiv);
 
       console.log(`width: ${config.width}; height: ${config.height}; margin: 1em 0;`)
