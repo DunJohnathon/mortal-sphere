@@ -53,9 +53,8 @@ document.addEventListener("DOMContentLoaded", async () => {
                 .replace(/\s+/g, "-");
               const noteUrl = 'https://mortal-sphere.pages.dev/'+slug
               
-              
               L.marker([marker.loc[0], marker.loc[1]],
-                       {icon: icon})
+                       {icon: icon}, {title: marker.link})
                 .addTo(map)
                 .on("click", () => {
                   window.location.href = noteUrl;
