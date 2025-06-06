@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       console.log('map: '+ index + ', mapId: '+mapId + ', image: ' + image + ', bounds: ' + bounds )
       const mapDiv = document.createElement("div");
       mapDiv.id = mapId;
-      mapDiv.style = "width: 100%; height: 400px; margin: 1em 0;";
+      mapDiv.style = "width: ${config.width}; height: ${config.height}; margin: 1em 0;";
       codeBlock.parentElement.replaceWith(mapDiv);
 
       const map = L.map(mapId, {
@@ -38,7 +38,8 @@ document.addEventListener("DOMContentLoaded", async () => {
                        minZoom: config.minZoom,
                        maxZoom: config.maxZoom,
                         height: config.height,
-                        width: config.width}).fitBounds(bounds);
+                        width: config.width})
+        .fitBounds(bounds);
 
       L.imageOverlay('/assets/maps/' + image, bounds).addTo(map);
 
