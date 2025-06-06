@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "ms-map",
-      "lastAccessed": 1749075008754,
+      "lastAccessed": 1749218744030,
       "markers": [
         {
           "id": "ID_a81bdae99bdb",
@@ -24,13 +24,11 @@
       ],
       "overlays": [],
       "shapes": [],
-      "files": [
-        "Test.md"
-      ]
+      "files": []
     },
     {
       "id": "atlas-map",
-      "lastAccessed": 1749075203117,
+      "lastAccessed": 1749218744030,
       "markers": [
         {
           "id": "ID_7abac8db689b",
@@ -53,8 +51,8 @@
           "id": "ID_996bfa4b3b6b",
           "type": "default",
           "loc": [
-            1759.1875,
-            2055
+            1842,
+            1982
           ],
           "link": "The Arbasmendi Mountain Range",
           "layer": "Mortal%20Sphere%20Atlas%20v8.png",
@@ -82,24 +80,434 @@
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
+        },
+        {
+          "id": "ID_38aa3beae93b",
+          "type": "default",
+          "loc": [
+            1893.28125,
+            1740.5
+          ],
+          "link": "Astrgolfel",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_99f839f9783b",
+          "type": "default",
+          "loc": [
+            1713.28125,
+            1828.5
+          ],
+          "link": "Kynigetti",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3b593b7a2b9b",
+          "type": "default",
+          "loc": [
+            1815.28125,
+            1880.5
+          ],
+          "link": "The Erdlands",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b9b85bf8eafb",
+          "type": "default",
+          "loc": [
+            1987.28125,
+            1960.5
+          ],
+          "link": "Midani",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d8cb491a5ba8",
+          "type": "default",
+          "loc": [
+            1914,
+            2093.5
+          ],
+          "link": "Old Noitavik",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1ae899eabac8",
+          "type": "default",
+          "loc": [
+            1301.28125,
+            1830.5
+          ],
+          "link": "The Ragat Song",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_787b8a9adbea",
+          "type": "default",
+          "loc": [
+            1528,
+            1876
+          ],
+          "link": "The Shai-Rakis Desert",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_69e97a68c838",
+          "type": "default",
+          "loc": [
+            1525.28125,
+            2098.5
+          ],
+          "link": "The Southern Arbasmendi Range",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_493ab9484a9a",
+          "type": "default",
+          "loc": [
+            1311,
+            2336
+          ],
+          "link": "Congling Jungles",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9929bb882a7b",
+          "type": "default",
+          "loc": [
+            1378,
+            2704
+          ],
+          "link": "Euraes",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5b08ebcb68a8",
+          "type": "default",
+          "loc": [
+            1298,
+            2192
+          ],
+          "link": "Motumata",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_abb9c98b4bda",
+          "type": "default",
+          "loc": [
+            1532,
+            2254
+          ],
+          "link": "Selendir",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0b291bf9eb7b",
+          "type": "default",
+          "loc": [
+            1479,
+            2524
+          ],
+          "link": "The Onidrakkara Range",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_28fa4bebca6b",
+          "type": "default",
+          "loc": [
+            1600,
+            2480
+          ],
+          "link": "The Sannam Wastes",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_da5969d8d94b",
+          "type": "default",
+          "loc": [
+            1683.28125,
+            2358.5
+          ],
+          "link": "Keratos",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3bd9ba587be9",
+          "type": "default",
+          "loc": [
+            1959.28125,
+            2356.5
+          ],
+          "link": "The Gardeigana Mountain Range",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0a2838a9f9c9",
+          "type": "default",
+          "loc": [
+            1570,
+            2922
+          ],
+          "link": "Southern Nirae",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_79c91a8bfb8b",
+          "type": "default",
+          "loc": [
+            1804,
+            2838
+          ],
+          "link": "Rodan",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2aa8391bd86b",
+          "type": "default",
+          "loc": [
+            1800,
+            2710
+          ],
+          "link": "Northern Nirae",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c839a9397aca",
+          "type": "default",
+          "loc": [
+            1847.28125,
+            2402.5
+          ],
+          "link": "Old Ostoria",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1b683999f9cb",
+          "type": "default",
+          "loc": [
+            1653.28125,
+            2684.5
+          ],
+          "link": "Penthaea",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6a0839ea590b",
+          "type": "default",
+          "loc": [
+            1515.28125,
+            1164.5
+          ],
+          "link": "Bel",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5ad87b1ad829",
+          "type": "default",
+          "loc": [
+            816,
+            2556
+          ],
+          "link": "Imir",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aaaada39aa89",
+          "type": "default",
+          "loc": [
+            2248,
+            1636
+          ],
+          "link": "Jotunheim",
+          "layer": "Mortal%20Sphere%20Atlas%20v8.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
         }
       ],
       "overlays": [],
       "shapes": [],
       "files": [
-        "Taea.md"
+        "Geography/Taea.md"
       ]
     }
   ],
   "defaultMarker": {
     "type": "default",
-    "iconName": "map-marker",
-    "color": "#dddddd",
+    "iconName": "map-pin",
+    "color": "#cab69b",
     "transform": {
       "size": 6,
       "x": 0,
       "y": -2
-    }
+    },
+    "isImage": false,
+    "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAYCAYAAAAlBadpAAAAAXNSR0IArs4c6QAAA45JREFUOE9jZEAFjKGhoVLCwsIRrq6ujry8vJp//vz5+vTp00unTp3a/vv377ULFiz4AdPCCGMYGxuz2tnZ1fj4+FQ6OTmx/vv3j+Hly5cMTExMDGJiYgw/fvz4t3Hjxge7d+8unDdv3iaQPrBmLS0ttrCwsGUVFRXBr169+n3w4MHjW7du3SwsLHyNi4uL4dOnT46+vr7BlpaWCs+ePXs/Z86c2okTJ04Day4vL29ubGysuXDhwpfu7u6ctWvXLkTzDkNoaCi/iopKU3Z2ds7Hjx9ftLW1JTJGREQoZGdn35KXl/9fWFiYhk0jzKDQ0FAhNTW1rry8vPj9+/efZKysrCxrbW3tmDRp0s6CggJPdBvR+Xv37pXn4OA4pqKiwsC4bNmyM8HBwYbh4eH5GzZsmEJIc1pamoiKikp/VlaWJ+PmzZsfmpiYSFtYWOg+fPjwOiHNAQEBAiYmJuVFRUU5jJs2bXpoamoq7eXlZXz+/PmLhDRHRUUJ6unp1ebl5aUyLl++fFd4eLhzdHR04/Lly5sIaS4pKRFTUlKaHh8fb8MYExOTuWDBgqlbt2694u/vr8/AwPAfnwE7duxQERQUPCclJfWR0cHBgSM2NvZVWFgYV1xc3NT169fn49IcGhoqoaqqurKystJyzZo1B8CJJDIyMrKrq2sZFxfX39TU1MXr1q1LRDcgMjJSXFxcfFdzc7PepUuXHk6ZMsUDlrYZo6OjUzo6OmaB0vH58+e/Tpw48SILC8ue9+/fS2ppaVlkZ2drioqKspw6der5pEmTItatW3cInjFCQ0OZmZmZY6dMmTJfWFgYbPHv378ZWFlZwexPnz797+/vv79v3z6PQ4cO3YZnDJgT09LSuGRlZS/V1NQoozv7z58/r2JiYvxXrlx5AiNLggQaGhqYmJmZnWpqanYja/769eu/KVOmXD979qz+6tWr/2LVDDVATFVV9WFUVBQHTNHv37/fFRQURE6bNm0XsqFwP8MEc3Nz2cXFxXuqq6tzQGI/fvxg2LZt2+MVK1ZorV69+gtezaACor+/XyM+Pv6aoKAgSPO33NzcSXPmzKlEDwcMm0EKcnNz+cTExC5XVVXJPXv27FVRUZHa6tWrPxKlGRRtVlZWjqmpqTvy8/NPz5071wpbssVqM8iGzs5OKVlZ2XO7du0yWLBgwQtsSRanZktLS042NrbcgwcP9jAwMPzDphkAemVka8TNgogAAAAASUVORK5CYII="
   },
   "markerIcons": [],
   "color": "#dddddd",
