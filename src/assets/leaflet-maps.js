@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       mapDiv.style = "width: ${config.width}; height: ${config.height}; margin: 1em 0;";
       codeBlock.parentElement.replaceWith(mapDiv);
 
-      console.log("width: ${config.width}; height: ${config.height}; margin: 1em 0;")
+      console.log(`width: ${config.width}; height: ${config.height}; margin: 1em 0;`)
       const map = L.map(mapId, {
                         crs: L.CRS.Simple,
                        minZoom: config.minZoom,
