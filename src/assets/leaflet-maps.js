@@ -56,7 +56,10 @@ document.addEventListener("DOMContentLoaded", async () => {
               L.marker([marker.loc[0], marker.loc[1]],
                        {icon: icon}, {title: marker.link})
                 .addTo(map)
-                .bindTooltip(marker.link)
+                .bindTooltip(marker.link, {
+                  direction: "top",
+                  offset: [0, -10]
+            })
                 .on("click", () => {
                   window.location.href = noteUrl;
                 });
