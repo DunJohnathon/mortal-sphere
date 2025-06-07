@@ -1,40 +1,16 @@
 document.addEventListener("DOMContentLoaded", async () => {
   try {
-    const response = await fetch("/assets/data.json");
-    const mapData = await response.json();
-    const notesRoot = '/src/site/notes'
     
-    function findFile(fileName) {
-      const files = fs.readdirSync('/src/site/notes');
-    
-      for (const file of files) {
-        const filePath = path.join('/src/site/notes', file);
-        const stat = fs.statSync(filePath);
-    
-        if (stat.isDirectory()) {
-          const found = findFile(filePath, fileName);
-          if (found) {
-            return found;
-          }
-        } else if (file === fileName) {
-          return filePath;
-        }
-      }
-      return null;
-    }
-
+  
     const codeBlocks = document.querySelectorAll("pre > code.language-leaflet");
     if (codeBlocks === 0) return;
 
-    let data;
-    try {
-      const res = await fetch("/assets/data.json")
-      data = await res.json();
-    } catch (err) {
-      console.error("Could not load data.json", err);
-      return;
-    }
-
+    const response = await fetch("/assets/data.json");
+    const mapData = await response.json();
+    const filetreeresponse = await fetch("/filetree.json")
+    const filetree = await filetreeresponse.json();
+    console.log(filetree)
+    
     var icon = L.icon({
       iconUrl: '/assets/icon.png',
       iconSize: [16,24],
@@ -64,16 +40,14 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       L.imageOverlay('/assets/maps/' + image, bounds).addTo(map);
 
-      // Add markers from data.json
       if (mapData.mapMarkers) {
         console.log('found json')
-        mapData.mapMarkers.forEach((leafmap) => {
+        .mapMarkers.forEach((leafmap) => {
           if (leafmap.id === config.id) {
             console.log(leafmap.id+' matches '+ config.id)
             leafmap.markers.forEach((marker) => {
-              const foundFilePath = path.relative(notesRoot, findFile(marker.link));
-              console.log(foundfilePath);
-              const slug = foundFilePath
+              
+              const slug = marker.link
                 .toLowerCase()
                 .replace(/[^\w\s-]/g, "")
                 .replace(/\s+/g, "-");
