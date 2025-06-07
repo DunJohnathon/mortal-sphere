@@ -2,8 +2,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   try {
     const response = await fetch("/assets/data.json");
     const mapData = await response.json();
-    const fs = require('fs');
-    const path = require('path');
     const notesRoot = '/src/site/notes'
     
     function findFile(fileName) {
