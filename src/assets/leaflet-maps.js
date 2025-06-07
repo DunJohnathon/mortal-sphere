@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 .replace(/[^\w\s-]/g, "")
                 .replace(/\s+/g, "-");
 
-              const url = findNoteUrlBySlug(slug).toString()
+              const markerurl = findNoteUrlBySlug(slug).toString()
               
               L.marker([marker.loc[0], marker.loc[1]],
                        {icon: icon}, {title: marker.link})
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                   offset: [0, -10]
             })
                 .on("click", () => {
-                  window.location.href = url;
+                  window.location.href = markerurl;
                 });
           });
         }
