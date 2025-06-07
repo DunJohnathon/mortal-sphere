@@ -77,7 +77,13 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
         {% include imp %}
       {% endfor %}
     </main>
-    <pre>{{ filetree | dump }}</pre>
+
+    {% raw %}
+    <script type="module">
+      window.fileTree = {{ filetree | js }};
+    </script>
+    {% endraw %}
+
     {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
       {%include "components/sidebar.njk"%}
     {% endif %}
