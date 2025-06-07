@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
               findNoteUrlBySlug(slug).then(url => {
                 if (url) {
-                  console.log("Found note URL:", url);]
+                  console.log("Found note URL:", url);
                   const markerurl = JSON.stringify(url)
                   console.log(markerurl)
                   // Add to marker popup or wherever you need it
