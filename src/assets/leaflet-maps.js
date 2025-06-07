@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       if (mapData.mapMarkers) {
         console.log('found json')
-        .mapMarkers.forEach((leafmap) => {
+        mapData.mapMarkers.forEach((leafmap) => {
           if (leafmap.id === config.id) {
             console.log(leafmap.id+' matches '+ config.id)
             leafmap.markers.forEach((marker) => {
