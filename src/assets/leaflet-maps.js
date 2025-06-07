@@ -64,6 +64,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 .replace(/\s+/g, "-");
 
               const markerurl = findNoteUrlBySlug(slug).toString()
+              console.log(markerurl)
               
               L.marker([marker.loc[0], marker.loc[1]],
                        {icon: icon}, {title: marker.link})
