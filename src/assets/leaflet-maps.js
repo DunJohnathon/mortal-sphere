@@ -2,6 +2,28 @@ document.addEventListener("DOMContentLoaded", async () => {
   try {
     const response = await fetch("/assets/data.json");
     const mapData = await response.json();
+    const fs = require('fs');
+    const path = require('path');
+    const notesRoot = '/src/site/notes'
+    
+    function findFile(fileName) {
+      const files = fs.readdirSync('/src/site/notes');
+    
+      for (const file of files) {
+        const filePath = path.join('/src/site/notes', file);
+        const stat = fs.statSync(filePath);
+    
+        if (stat.isDirectory()) {
+          const found = findFile(filePath, fileName);
+          if (found) {
+            return found;
+          }
+        } else if (file === fileName) {
+          return filePath;
+        }
+      }
+      return null;
+    }
 
     const codeBlocks = document.querySelectorAll("pre > code.language-leaflet");
     if (codeBlocks === 0) return;
@@ -51,12 +73,14 @@ document.addEventListener("DOMContentLoaded", async () => {
           if (leafmap.id === config.id) {
             console.log(leafmap.id+' matches '+ config.id)
             leafmap.markers.forEach((marker) => {
-              const slug = marker.link
+              const foundFilePath = path.relative(notesRoot, findFile(marker.link));
+              console.log(foundfilePath);
+              const slug = foundFilePath
                 .toLowerCase()
                 .replace(/[^\w\s-]/g, "")
                 .replace(/\s+/g, "-");
               const noteUrl = 'https://mortal-sphere.pages.dev/'+slug
-              
+              console.log(noteUrl);
               L.marker([marker.loc[0], marker.loc[1]],
                        {icon: icon}, {title: marker.link})
                 .addTo(map)
