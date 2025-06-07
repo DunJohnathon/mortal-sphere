@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 .replace(/[^\w\s-]/g, "")
                 .replace(/\s+/g, "-");
 
-              findNoteUrlBySlug("my-note-title").then(url => {
+              findNoteUrlBySlug(slug).then(url => {
                 if (url) {
                   console.log("Found note URL:", url);
                   L.marker([marker.loc[0], marker.loc[1]],
