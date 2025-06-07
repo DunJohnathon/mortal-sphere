@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       const sitemapUrl = '/sitemap.xml';
       const res = await fetch(sitemapUrl);
       const xmlText = await res.text();
-      const parsert = new DOMParser();
+      const parser = new DOMParser();
       const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
 
       cons urls = Array.from(xmlDoc.querySelectorAll('url > loc')).map(el => el.textContent);
