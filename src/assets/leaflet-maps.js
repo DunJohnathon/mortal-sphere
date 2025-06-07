@@ -63,8 +63,14 @@ document.addEventListener("DOMContentLoaded", async () => {
                 .replace(/[^\w\s-]/g, "")
                 .replace(/\s+/g, "-");
 
-              const markerurl = findNoteUrlBySlug(slug).toString()
-              console.log(markerurl)
+              findNoteUrlBySlug("my-note-title").then(url => {
+                if (url) {
+                  console.log("Found note URL:", url);
+                  // Add to marker popup or wherever you need it
+                } else {
+                  console.log("Note not found.");
+                }
+              });
               
               L.marker([marker.loc[0], marker.loc[1]],
                        {icon: icon}, {title: marker.link})
