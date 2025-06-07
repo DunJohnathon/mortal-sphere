@@ -5,11 +5,22 @@ document.addEventListener("DOMContentLoaded", async () => {
     const codeBlocks = document.querySelectorAll("pre > code.language-leaflet");
     if (codeBlocks === 0) return;
 
+     async function findNoteUrlBySlug(slug) {
+      const sitemapUrl = '/sitemap.xml';
+      const res = await fetch(sitemapUrl);
+      const xmlText = await res.text();
+      const parsert = new DOMParser();
+      const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
+
+      cons urls = Array.from(xmlDoc.querySelectorAll('url > loc')).map(el => el.textContent);
+
+      const matched = urls.find(url => url.includes(`/${slug}/`));
+
+      return matched || null;
+    }
+    
     const response = await fetch("/assets/data.json");
-    const mapData = await response.json();
-    const filetreeresponse = await fetch("/filetree.json")
-    const filetree = await filetreeresponse.json();
-    console.log(filetree)
+    const mapData = await response.json(); 
     
     var icon = L.icon({
       iconUrl: '/assets/icon.png',
@@ -51,8 +62,15 @@ document.addEventListener("DOMContentLoaded", async () => {
                 .toLowerCase()
                 .replace(/[^\w\s-]/g, "")
                 .replace(/\s+/g, "-");
-              const noteUrl = 'https://mortal-sphere.pages.dev/'+slug
-              console.log(noteUrl);
+
+              findNoteUrlBySlug(slug).then(url => {
+                if (url) {
+                  console.log('Found note URL:', url);
+                } else {
+                  console.log('Note not found.')
+                }
+              })
+              
               L.marker([marker.loc[0], marker.loc[1]],
                        {icon: icon}, {title: marker.link})
                 .addTo(map)
@@ -61,7 +79,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                   offset: [0, -10]
             })
                 .on("click", () => {
-                  window.location.href = noteUrl;
+                  window.location.href = url;
                 });
           });
         }
