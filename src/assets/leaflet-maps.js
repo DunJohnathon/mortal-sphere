@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       const parser = new DOMParser();
       const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
 
-      cons urls = Array.from(xmlDoc.querySelectorAll('url > loc')).map(el => el.textContent);
+      const urls = Array.from(xmlDoc.querySelectorAll('url > loc')).map(el => el.textContent);
 
       const matched = urls.find(url => url.includes(`/${slug}/`));
 
