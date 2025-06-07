@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       const urls = Array.from(xmlDoc.querySelectorAll('url > loc')).map(el => el.textContent);
 
-      const matched = await urls.find(url => url.includes(`/${slug}/`));
+      const matched = urls.find(url => url.includes(`/${slug}/`));
 
       return matched || null;
     }
@@ -63,19 +63,25 @@ document.addEventListener("DOMContentLoaded", async () => {
                 .replace(/[^\w\s-]/g, "")
                 .replace(/\s+/g, "-");
 
-              const markerurl = await findNoteUrlBySlug(slug)
-              console.log(markerurl)
-              
-              L.marker([marker.loc[0], marker.loc[1]],
+              findNoteUrlBySlug("my-note-title").then(url => {
+                if (url) {
+                  console.log("Found note URL:", url);
+                  L.marker([marker.loc[0], marker.loc[1]],
                        {icon: icon}, {title: marker.link})
                 .addTo(map)
                 .bindTooltip(marker.link, {
                   direction: "top",
                   offset: [0, -10]
-            })
+                  })
                 .on("click", () => {
-                  window.location.href = markerurl;
+                  window.location.href = url;
                 });
+                } else {
+                  console.log("Note not found.");
+                }
+              });
+              
+              
           });
         }
       });
