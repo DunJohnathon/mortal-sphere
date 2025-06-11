@@ -133,7 +133,7 @@ ul.task-list {
 
 .toc {
     padding-right: 5px;
-    background-color: var(--background-primary);
+    background-color: #FDE7D7;
     padding: 10px;
     border-radius: 10px;
 
@@ -154,7 +154,7 @@ ul.task-list {
     max-height: 220px;
     overflow-y: auto;
     margin-bottom: 10px;
-    border-left: 1px solid var(--text-accent);
+    border-left: 1px solid #8B4513;
     ul {
         list-style-type: none;
         padding-inline-start: 15px !important;
@@ -196,7 +196,7 @@ ul.task-list {
 .backlinks {
     flex: 1;
     margin-top: 10px;
-    background-color: var(--background-primary);
+    background-color: #FDE7D7;
     border-radius: 10px;
     padding: 10px;
 
@@ -208,7 +208,7 @@ ul.task-list {
 }
 
 .backlink-list {
-    border-left: 1px solid var(--text-accent);
+    border-left: 1px solid #8B4513;
     max-height: 200px;
     overflow-y: auto;
     overflow-x: hidden;
