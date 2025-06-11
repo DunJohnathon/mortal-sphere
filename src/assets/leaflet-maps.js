@@ -21,7 +21,11 @@ document.addEventListener("DOMContentLoaded", async () => {
       return matched || null;
     }
     
-    const response = await fetch("/assets/data.json");
+    const response = await fetch("/assets/data.json", {
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
     const mapData = await response.json(); 
     console.log(mapData)
     
