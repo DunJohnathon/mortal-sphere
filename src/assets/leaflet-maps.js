@@ -9,8 +9,10 @@ document.addEventListener("DOMContentLoaded", async () => {
       const sitemapUrl = '/sitemap.xml';
       const res = await fetch(sitemapUrl);
       const xmlText = await res.text();
+       console.log(xmlText)
       const parser = new DOMParser();
       const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
+       console.log(xmlDoc)
 
       const urls = Array.from(xmlDoc.querySelectorAll('url > loc')).map(el => el.textContent);
 
@@ -21,6 +23,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     
     const response = await fetch("/assets/data.json");
     const mapData = await response.json(); 
+    console.log(mapData)
     
     var icon = L.icon({
       iconUrl: '/assets/icon.png',
