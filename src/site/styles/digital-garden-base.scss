@@ -414,7 +414,7 @@ ul.task-list {
 
 .notelink.active-note {
     a {
-        color: var(--text-accent);
+        color: #C88D63;
     }
 
     color: var(--text-accent);
@@ -491,7 +491,7 @@ ul.task-list {
     font-size: 1.2rem;
     cursor: pointer;
 
-    &.active {
+    &. {
         border: 2px solid var(--text-accent);
     }
 }
