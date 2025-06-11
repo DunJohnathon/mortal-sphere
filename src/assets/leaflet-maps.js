@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       return matched || null;
     }
-    
+    console.log('trying json')
     const response = await fetch("/assets/data.json", {
     headers: {
       "Content-Type": "application/json",
