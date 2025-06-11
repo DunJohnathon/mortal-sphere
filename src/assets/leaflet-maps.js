@@ -1,3 +1,4 @@
+console.log('trying leaflet-maps.js')
 document.addEventListener("DOMContentLoaded", async () => {
   try {
     
