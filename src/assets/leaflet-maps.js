@@ -1,4 +1,4 @@
-console.log('trying leaflet-maps.js')
+//console.log('trying leaflet-maps.js')
 document.addEventListener("DOMContentLoaded", async () => {
   try {
     
@@ -10,10 +10,10 @@ document.addEventListener("DOMContentLoaded", async () => {
       const sitemapUrl = '/sitemap.xml';
       const res = await fetch(sitemapUrl);
       const xmlText = await res.text();
-       console.log(xmlText)
+       //console.log(xmlText)
       const parser = new DOMParser();
       const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
-       console.log(xmlDoc)
+      // console.log(xmlDoc)
 
       const urls = Array.from(xmlDoc.querySelectorAll('url > loc')).map(el => el.textContent);
 
@@ -21,14 +21,14 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       return matched || null;
     }
-    console.log('trying json')
+    //console.log('trying json')
     const response = await fetch("/assets/data.json", {
     headers: {
       "Content-Type": "application/json",
     },
   });
     const mapData = await response.json(); 
-    console.log(mapData)
+  //  console.log(mapData)
     
     var icon = L.icon({
       iconUrl: '/assets/icon.png',
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
               findNoteUrlBySlug(slug).then(url => {
                 if (url) {
-                  console.log("Found note URL:", url);
+                 // console.log("Found note URL:", url);
                   L.marker([marker.loc[0], marker.loc[1]],
                        {icon: icon}, {title: marker.link})
                 .addTo(map)
