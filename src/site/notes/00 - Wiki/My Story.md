@@ -1,0 +1,16 @@
+---
+{"dg-publish":true,"permalink":"/00-wiki/my-story/"}
+---
+
+I was a ravenous consumer of fantasy and science-fiction media all throughout my childhood. I was the type of imaginative kid who finished a book and thought of ways to continue the story. I still own a few of my old sketchbooks, each one filled with my drawings of imaginary monsters and characters. It wasn't until middle-school where I was first introduced to Advanced Dungeons & Dragons by my English teacher. During our small four-person after-school D&D club, I discovered the powerful stories you can tell on the tabletop.
+
+In very early high-school, my older brother began to involve me in various activities with his friend group. They were the cool kids, and they tolerated me enough to allow me to tag along with my brother. Eventually, a multitude of factors converged and my brother hit upon the idea of starting a D&D game with the new edition (5th) at the time with all of his friends. Between many of them getting absorbed into Magic the Gathering or Yugioh, hitting the right age to start driving by themselves, and having played a ton of video games or engaging with other fantasy media, they were in many ways the perfect group of young teens ready to dive into the game.
+
+I was actually coerced into playing by my mom during their first meet, where we all made our characters. It wasn't long until I became interested in getting "behind the screen." I watched hours of D&D content on YouTube, I asked for the various books or accessories for birthdays or Christmas, and I began drawing maps and making my first worldbuilding notes.
+
+I wish I could say that those same worldbuilding notes became the Mortal Sphere (how cool would that be!), but that would be a lie. I have worked on multiple settings during my time playing D&D, most of which never saw the light of a session zero. Most of them were little more than a few big ideas and a creation myth, others have been iterated on and expanded over years of actual play. This setting was built from the outset to serve as my persistent, go-to D&D world. I began writing it during my time in college, where I wasn't able to run the game for my friends as much as I wanted to. That dry spell lasted through my entire degree, and to some extent continued still after a big move that took me to a different city for my career.
+
+Through it all, and still today (no matter when you are reading), I kept thinking about this setting; adding to it, editing it, subtracting from it. To this day, I am the same kid I was all the way back in the beginning; still doodling dragons in my notes while I should be paying attention. I draw inspiration from everything I can, whether its the tiny neighborhood I grew up in, the woods I got lost in, the games I've played, movies I've watched, or the stories that my friends and I have told each other since we were in middle school.
+
+If you ever want to reach out to me with questions or to learn more about the Mortal Sphere, feel free to reach out on reddit where I can be found as u/AFumblingArchitect. 
+I hope you enjoy The Mortal Sphere!
