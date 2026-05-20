@@ -12,6 +12,8 @@
 Hello, and welcome to the Mortal Sphere wiki. This website covers the ever-expanding knowledge base of worldbuilding material that I make for my homebrew universe made specially for Dungeons & Dragons 5th edition. If you are new to the campaign setting, I recommend you start with the [[00 - Wiki/Introduction\|Introduction]]! From there, feel free to branch out to any area of interest to you.
 # Contents
 This wiki is rich with information about a variety of topics throughout the Macrocosm
+## Most Recent Pages
+![[Newest Notes.base]]
 
 | Index Number | Topic Link          |
 | ------------ | ------------------- |
@@ -21,6 +23,7 @@ This wiki is rich with information about a variety of topics throughout the Macr
 | 30           | [[Ancestries\|Ancestries]]      |
 | 40           | [[Religion\|Religion]]        |
 | 50           | [[06 - Magic/magic\|magic]]           |
+|              |                     |
 |              |                     |
  
 ---

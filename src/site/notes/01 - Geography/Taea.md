@@ -4,14 +4,14 @@
 
 # <span style="font-family: 'Cinzel Decorative';font-size: 36pt">Taea</span>
 >
->*"From the light of the Bright Star east I have wandered hither. Through waste and fire of the black throne that was once my home, through the many realms of the dragon lords, through the city-seas of the conqueror, through secret paths in mountain wounds, through the bloody fields of battle, I have arrived now to this Jewel of the Desert. I have seen much beauty and hardship, and many treasures. But, in all my journeying, I thought only of home, of Taea."
+>*"From the light of the Bright Star east I have wandered hither. Through waste and fire of the black throne that was once my home, through the many realms of the dragon lords, through the city-seas of the conqueror, through secret paths in mountain wounds, through the bloody fields of battle, I have arrived now to this Jewel of the Desert. I have seen much beauty and hardship, and many treasures. But in all my journeying, I thought only of home, of Taea."
 >
  >— [[Ferron\|Ferron]], the last survivor of the [[House of the Fallen Star\|House of the Fallen Star]]*
  >
 
-Taea (pronounced: /TAY-ah/), is the largely accepted name for what is cosmologically referred to as the Mortal Sphere. The name, as is common of most major naming schemes, is of [[04 - Ancestries/Elves\|Elvish]] origin, and might be literally translated to "This Place", or "The Place". Though the meaning of the name may appear lacking in spirit or character, the significance of the translation's capitalization should not be understated. In Elvish, such a name as Taea signifies intense gravity and magnitude of importance, and can be more generally understood to mean "the only place for me."
+Taea (pronounced: /TAY-ah/), is the largely accepted name for what is cosmologically referred to as the Mortal Sphere. The name, as is common of most major naming schemes, is of [[04 - Ancestries/Elves\|Elvish]] origin, and might be literally translated to "This Place", or "The Place". Though the meaning of the name may appear lacking in spirit or character, the significance of its translation should not be understated. In Elvish, such a name as Taea signifies intense gravity and magnitude of importance, and can be more generally understood to mean "the only place for me."
 # Overview
-The geography of the Mortal Sphere focuses primarily on what a Dungeon Master or player can leverage for adventure or character inspiration. It is important to remember that the Mortal Sphere contains many broad settings for many different types of campaigns. The descriptions of the regions of condense lots of information into digestible and intriguing profiles.
+The geography of the Mortal Sphere focuses primarily on what a Dungeon Master or player can leverage for adventure or character inspiration. It is important to remember that the Mortal Sphere contains many broad settings for many different types of campaigns. The descriptions of the regions condense lots of information into digestible and intriguing profiles.
 # Geography
 ```leaflet
 id: atlas-map
@@ -25,11 +25,11 @@ maxZoom: 1
 height: 700px
 width: 100%
 ```
-*A Lorish map of the whole of the Mortal Sphere. Such maps attempt to visualize beyond the shores of Mord, Sannaea, or Volgaea, using what little can be learned from non-human sources capable of describing far-away lands*
+*A Lorish map of the whole of the Mortal Sphere. Such maps attempt to visualize beyond the shores of Mord, Sannaea, or Volgaea, and are often made using knowledge gained through communion with supernatural forces such as devils or spirits.*
 
 ---
 
-Taea has never been holistically explored, and does not have a single globalized culture in the current era. Therefore, the world cannot be generalized as a whole, and is best understood as a collection of continents and regions. The most civilized, diverse, and populated regions are within the continents of [[01 - Geography/01.1 - Mord/Mord\|Mord]], [[01 - Geography/01.3 - Volgaea/Volgaea\|Volgaea]], and [[01 - Geography/01.2 - Sannaea/Sannaea\|Sannaea]]. The other three continents of Taea include [[01 - Geography/01.4 - Distant Lands/Bel\|Bel]], [[01 - Geography/01.4 - Distant Lands/Imir\|Imir]], and [[01 - Geography/01.4 - Distant Lands/Jotunheim\|Jotunheim]]. 
+Taea has never been holistically explored, and does not have a single globalized culture in the current era. In addition, the nation-state has not yet emerged as the predominant method of classifying geographic areas as it has in the real world. Kingdoms and empires rise and fall, just as cultures shift and migrate over time. Therefore, the world is best understood as a loose collection of broad geographic regions. The most civilized, diverse, and populated regions are within the continents of [[01 - Geography/01.1 - Mord/Mord\|Mord]], [[01 - Geography/01.3 - Volgaea/Volgaea\|Volgaea]], and [[01 - Geography/01.2 - Sannaea/Sannaea\|Sannaea]]. The other three continents of Taea include [[01 - Geography/01.4 - Distant Lands/Bel\|Bel]], [[01 - Geography/01.4 - Distant Lands/Imir\|Imir]], and [[01 - Geography/01.4 - Distant Lands/Jotunheim\|Jotunheim]]. 
 
 Taea also harbors four (4) chief [[01 - Geography/01.4 - Distant Lands/The Oceans\|oceans]], including the [[The Bellatorian Ocean\|Bellatorian]], the [[The Conventaean Ocean\|Conventaean]], [[The Umbral Ocean\|the Umbral]], and the [[The Meridium Ocean\|Meridium]] Oceans. These oceans are each known for being particularly hazardous and difficult to traverse, making trans-continental sea voyages incredibly rare. 
 

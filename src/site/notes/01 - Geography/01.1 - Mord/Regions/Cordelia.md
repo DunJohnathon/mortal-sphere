@@ -1,4 +1,35 @@
 ---
-{"dg-publish":true,"permalink":"/01-geography/01-1-mord/regions/cordelia/"}
+{"dg-publish":true,"permalink":"/01-geography/01-1-mord/regions/cordelia/","tags":["region","continent"]}
 ---
 
+# <span style="font-family: 'Cinzel Decorative';font-size: 36pt">Cordelia</span>
+The Golden Cities of the Saint King
+>
+>*"Vecny Zivot"*
+>*—  Cordelian shibboleth, 'Eternal Life'*
+
+Etymology (pronounced: /kohr-DEE-lee-uh/)
+# Overview
+A sprawling megalopolis that spans the historical homelands of Saint-King Lorium-Rex. 
+## Major Realms
+The Empire of Lorian, Ganth, Kattarine, Korikan, Novgradel, Ur-Mundu
+## Hallmarks
+Angelic religion, cosmopolitanism, urbanism, military might, political intrigue
+## Three Interesting Facts
+- Cordelia is composed of multiple cities spanning many miles, composing one single metropolitan area that blankets nearly the entire region
+- Cordelia is the ancestral home of the Empire of Lorian, and the Saint-King Lorium-Rex.
+- Military heroes and some remarkable nobles are made into Venerables by the Holy Church of Lorian. They are resurrected after death and given positions of influence, forming a pseudo-immortal bureaucracy.
+# Characters from Region
+## Imperious and Self-Righteous. 
+Pride is itself a currency worth more than its weight in gold. Whether your character originates from the heights of the noble houses, or the depths of the criminal underworld, they probably think they are destined for greatness. The citizens of Cordelia are surrounded by and immersed in a culture that demands a certain holier-than-thou attitude towards life, marked by an air of superior morality that surrounds each individual.
+## Traditional Urbanites.
+In Cordelia, it is incredibly important to follow the rules of religion, fashion, and ritual. The culture of Cordelia is forever frozen, preserved exactly how it was at the time of Lorium-Rex's coronation over seven-hundred years ago. Upward mobility is difficult to come by, and traditions, some of which are hundreds of years old, are the way of life. Your character, no matter where they may find themselves, might still find a way to celebrate their Cordelian roots by sending tithe to the Church of Lorian, observing the Day of Rebirth, or by affecting the fashion of the golden cities.
+## Military Service.
+Every citizen in Cordelia is expected and made to serve under the King's military during certain years of life proportional to their lifespan. Dwarves and Elves might serve many years, sometimes decades, while humans or orcs sacrifice only the most potent years of their youth. The conscription is integral to both the military of the Empire of Lorian, and also the social culture of the cities. Many Cordelians fought in bloody battles during the reunification wars, and nearly all have some level of military expertise. How did your character serve in war?
+# Contemplation and Meditation
+The region of Cordelia is the single-most densely populated and urbanized region of the Mortal Sphere. The interconnected cities, halls, and kingdoms form a sprawling megalopolis. It is a network of burgs and parishes connected by paved roads and engineered bridges. What patches of wilderness remain are obedient, manicured pastures or hunting grounds, preserved by noble families who can track their house's title and deeds of such land hundreds of years into the past. The city-sea, as it has come to be known, is composed of several strong, honorable nations, but there is none who can compare to the Empire of Lorian. The banner of Lorium-Rex binds and links all of Cordelia together, clad in amaranth and bearing the words, 'Vecny Zivot': Eternal Life.
+The cities of Cordelia are a site to behold. Masterful architects and engineers devised urban landscapes that even the haughtiest of dwarves must begrudgingly admire. A small army of bureaucracy, the [[Ministries Public\|Ministries Public]], maintains and administers the plans of the cities in exhaustive detail. Their mission, to ensure the cities remain orderly and well kempt, is largely an aspirational one. Though the region is mostly composed of Cordelian humans, Cordelia is a huge cosmopolitan melting pot composed of the largest populations in the world, and it exceeds the size that any bureacracy could ever hope to holistically manage. 
+Among the highest of the nobility lie long lived Cordelian, Sannite, and Vaghdan humans kept alive by the whims of the Holy Church of Lorian alongside High-Elves and Korish Dwarves whose lifespans make them indispensable assets to their clients. These enduring aristocrats are the Venerables. Few in number, they rank so highly in importance to the function of the region that the Church of Lorian intervenes in their deaths to keep them in service to the Saint King. Conversely, the militaries of the Empire are choked with a crowd of officers of diverse backgrounds and ancestry. Dragonborn mercenaries and Orcish war-mages bolster the ranks of Humans and Halflings as Dwarvish generals issue commands and orders from the safety of their headquarters. And of course, living beneath the ivory towers and golden halls lies the underbelly of the city composed of Humans, Halflings, and Tieflings. Underneath the lawful façade of Lorian is a criminal underworld of unrivaled size populated by such unassuming commoners who fight against the law, spy on behalf of the rich and noble, or plan elaborate heists to steal the secrets of the Venerables. Common-born Cordelians do not enjoy the luxuries of magical rebirth, and so they are willing to do whatever it takes to make a name for themselves in the short time they have.
+One might spend their entire lifetime within the bounds of city walls. Though at one time Cordelia was known for its seafaring ancestors, who mastered the Seas of Corum and the Selendiscan, they have become overshadowed by others in their maritime capabilities and skills. At present, it would be far more likely to see a Cordelian engaging in local politics, holding secret meetings, or plotting a devious scheme in the towers and taverns throughout the cities. It is in these arenas that the citizens of the empire now do battle. They all share the same king, yet wage their unseen civil wars as factions: fraternities and sororities, guilds and noble houses, chivalric orders and the criminal underworld, each one jockeying for position and influence. [[The Knights Inquisitor\|The Knights Inquisitor]], agents of the Church of Lorian, uphold the law and keep each faction in check. No faction has yet to have gathered enough power to openly contest the rule of the church, nor the knights of the king, for all lie in fear of the Empire's most ultimate warriors, [[The Knights of the Waxing Table\|The Knights of the Waxing Table]].
+# Geography
+A brief description of the biomes and climates in the region and any standout geographical features.
