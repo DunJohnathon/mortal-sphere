@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/01-geography/01-1-mord/regions/cordelia/","tags":["region","continent"]}
+{"dg-publish":true,"permalink":"/01-geography/01-1-mord/regions/cordelia/","tags":["region","continent"],"dg-note-properties":{"tags":["region","continent"]}}
 ---
 
 # <span style="font-family: 'Cinzel Decorative';font-size: 36pt">Cordelia</span>

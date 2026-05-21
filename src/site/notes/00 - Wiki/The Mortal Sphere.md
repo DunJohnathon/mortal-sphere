@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/00-wiki/the-mortal-sphere/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/00-wiki/the-mortal-sphere/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
 
 # <span style="font-family: 'Cinzel Decorative';font-size: 36pt">The Mortal Sphere</span>
@@ -13,7 +13,37 @@ Hello, and welcome to the Mortal Sphere wiki. This website covers the ever-expan
 # Contents
 This wiki is rich with information about a variety of topics throughout the Macrocosm
 ## Most Recent Pages
-![[Newest Notes.base]]
+
+```base
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.ext == "md"
+    sort:
+      - property: file.ctime
+        direction: DESC
+    limit: 10
+
+```
+
+
+
+```base
+filters: file.ext == 'md'
+views:
+  - type: table
+    name: Most Recent Notes
+    order:
+      - file.ctime
+      - file.name
+    sort:
+      - property: file.ctime
+        direction: DESC
+
+```
+
 
 | Index Number | Topic Link          |
 | ------------ | ------------------- |

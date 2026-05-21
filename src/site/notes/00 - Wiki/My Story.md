@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/00-wiki/my-story/"}
+{"dg-publish":true,"permalink":"/00-wiki/my-story/","dg-note-properties":{}}
 ---
 
 I was a ravenous consumer of fantasy and science-fiction media all throughout my childhood. I was the type of imaginative kid who finished a book and thought of ways to continue the story. I still own a few of my old sketchbooks, each one filled with my drawings of imaginary monsters and characters. It wasn't until middle-school where I was first introduced to Advanced Dungeons & Dragons by my English teacher. During our small four-person after-school D&D club, I discovered the powerful stories you can tell on the tabletop.

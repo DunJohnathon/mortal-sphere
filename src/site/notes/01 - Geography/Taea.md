@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/01-geography/taea/"}
+{"dg-publish":true,"permalink":"/01-geography/taea/","dg-note-properties":{}}
 ---
 
 # <span style="font-family: 'Cinzel Decorative';font-size: 36pt">Taea</span>

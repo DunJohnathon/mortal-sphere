@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/01-geography/01-2-sannaea/sannaea/"}
+{"dg-publish":true,"permalink":"/01-geography/01-2-sannaea/sannaea/","dg-note-properties":{}}
 ---
 
 [[01 - Geography/01.2 - Sannaea/Congling Jungles\|Congling Jungles]]

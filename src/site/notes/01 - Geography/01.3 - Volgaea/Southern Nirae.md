@@ -1,4 +1,4 @@
 ---
-{"dg-publish":true,"permalink":"/01-geography/01-3-volgaea/southern-nirae/"}
+{"dg-publish":true,"permalink":"/01-geography/01-3-volgaea/southern-nirae/","dg-note-properties":{}}
 ---
 

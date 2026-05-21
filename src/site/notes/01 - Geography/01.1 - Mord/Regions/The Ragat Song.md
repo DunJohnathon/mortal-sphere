@@ -1,4 +1,4 @@
 ---
-{"dg-publish":true,"permalink":"/01-geography/01-1-mord/regions/the-ragat-song/"}
+{"dg-publish":true,"permalink":"/01-geography/01-1-mord/regions/the-ragat-song/","dg-note-properties":{}}
 ---
 

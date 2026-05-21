@@ -1,4 +1,4 @@
 ---
-{"dg-publish":true,"permalink":"/01-geography/01-2-sannaea/euraes/"}
+{"dg-publish":true,"permalink":"/01-geography/01-2-sannaea/euraes/","dg-note-properties":{}}
 ---
 

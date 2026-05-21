@@ -1,4 +1,4 @@
 ---
-{"dg-publish":true,"permalink":"/01-geography/01-1-mord/regions/shaijaqim/"}
+{"dg-publish":true,"permalink":"/01-geography/01-1-mord/regions/shaijaqim/","dg-note-properties":{}}
 ---
 
